@@ -1,0 +1,283 @@
+/*Wendy Shaw*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Sansita|KoHo:700|Righteous|Biryani:800');
+
+body{
+  margin: 0;
+  overflow-x: hidden;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 50vh;
+  background-image: url('assets/rainbow.jpg');
+  background-color: rgba(0, 0, 0, 0.3);
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-position: center;
+}
+
+nav {
+  position: absolute;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 6.5vh;
+  width: 100%;
+  top: .2em;
+}
+
+h1 {
+  font-family: 'KoHo', sans-serif;
+  font-size: 10vw;
+  margin: 0;
+  color: white;
+}
+
+h2 {
+  font-family: 'KoHo', sans-serif;
+  font-size: 30px;
+  text-transform: uppercase;
+  background: -webkit-linear-gradient(45deg, #700bb8, #ff6608 20%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+a:hover {
+  background: -webkit-linear-gradient(45deg, #700bb8, #5cccc2 60%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#subtitle {
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+
+  text-align: center;
+}
+
+#navback {
+  position: relative;
+  height: 5em;
+  width: 100%;
+  background-color: #181818;
+}
+
+#navlink {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+}
+
+#logo {
+  max-height: 3.5em;
+}
+
+#space {
+  height: 6em;
+}
+
+/*Danielle Flinn*/
+
+#about {
+  display: grid;
+  grid-template-columns: repeat(2, 40vw);
+  margin: 7vw;
+  grid-column-gap: 5%; 
+  align-items: center;
+}
+
+#about p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+#group-pic {
+  border: solid  #743ad5 2px;
+  border-image: linear-gradient(to left, #743ad5 0%, #d53a9d 100%);
+  border-image-slice: 1;
+  border-width: 10px;
+  width: 100%;
+}
+
+#about-wrapper {
+  display: grid;
+  grid-template-rows: 40vh 10vh;
+  align-items: center;
+
+}
+
+#social-nav {
+  background-image: linear-gradient(to left, #743ad5 0%, #d53a9d 100%);
+  border-radius: 15px;
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 35%;
+  padding: 0 1vw 0 1vw;
+}
+
+#social-nav img {
+  height: 6vh;
+}
+
+
+/*Danielle Flinn*/
+
+#gallery h2 {
+  margin: 0 auto;
+}
+
+#gheader {
+  background: -webkit-linear-gradient(45deg, #00bdbd, #e000e0 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#gallery {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 20vw);
+  grid-template-rows: repeat(4, 20vw);
+  margin: 6vw auto;
+  grid-gap: 1.5vh;
+}
+
+#two {
+  background-image: url("https://images.unsplash.com/photo-1529339944280-1a37d3d6fa8c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=8fa6fbd1640c369dde8a775ec3fdec4e&auto=format&fit=crop&w=3150&q=80");
+  background-size: cover;
+  background-repeat: no-repeat;
+  grid-column: 3 / 5;
+}
+
+#big-square {
+  background-image: url("https://images.unsplash.com/3/doctype-hi-res.jpg?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=712fa3e4441f895bb401dfa66e6528c3&auto=format&fit=crop&w=3146&q=80");
+  background-size: cover;
+  background-repeat: no-repeat;
+  grid-row: 1 / 3;
+  grid-column: 1 / 3;
+
+}
+
+#one {
+  background-image: url("https://images.unsplash.com/photo-1506097425191-7ad538b29cef?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=0f9d1e666beae8d2a5082f7c1d27b31b&auto=format&fit=crop&w=3150&q=80");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#one2 {
+  background-image: url("https://images.unsplash.com/photo-1502321660926-350b34618f79?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=cb9af11f01cead28666ede6b04035dd2&auto=format&fit=crop&w=3150&q=80");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#one3 {
+  background-image: url("https://images.unsplash.com/photo-1498075702571-ecb018f3752d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f4306ec4bfa5375e2483126ebbdd1171&auto=format&fit=crop&w=3000&q=80");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#one4 {
+  background-image: url("https://images.unsplash.com/photo-1416339134316-0e91dc9ded92?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=163ac0f21c10e9147bcea719a9426fd5&auto=format&fit=crop&w=2767&q=80");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+#big-square2 {
+  grid-row: 3 / 5;
+  grid-column: 3 / 5;
+  background-image: url("https://images.unsplash.com/photo-1504685811859-86d0f3a5ccea?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1fe50dc3566c973fc76858ce8b2f672e&auto=format&fit=crop&w=1266&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#two2 {
+  grid-row: 3 / 5;
+  grid-column: 1 / 2;
+  background-image: url("https://images.unsplash.com/photo-1532090904700-5e3ddbb47c3e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ea74c32d84bfa970ee2e00df9f9d02a3&auto=format&fit=crop&w=1268&q=80");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+/*Whitney Bolar*/
+
+.whole-footer {
+  display: flex;
+  background-color: #181818;
+  height: 18em;
+  justify-content: center;
+}
+
+.whole-content {
+  font-family: 'KoHo', sans-serif;
+  width: 65%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+
+#top-content {
+  display: flex;
+  justify-content: space-evenly;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+#ruler {
+  height: 1px;
+  width: 25em;
+  background: -webkit-linear-gradient(45deg, #700bb8, #ff6608);
+  -webkit-background-clip: block;
+  -webkit-text-fill-color: transparent;
+}
+
+#bottom-content {
+  font-family: 'Open Sans', sans-serif;
+  width: 30em;
+  padding-top: 1em;
+}
+
+@media (max-width: 1100px) {
+  
+  #about-wrapper {
+    grid-column: 1 / 3;
+  }
+  
+  #about img {
+    grid-column: 1 / 3;
+  }
+
+  #about-wrapper {
+    display: grid;
+    grid-template-rows: 35vh 15vh;
+  }
+  
+  header {
+    height: 40vh;
+  }
+}
